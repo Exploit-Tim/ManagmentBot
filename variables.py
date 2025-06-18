@@ -15,38 +15,38 @@ class Config(object):
 
     # <================================================ REQUIRED ======================================================>
     # Telegram API configuration
-    API_ID = 204 # Get this value from my.telegram.org/apps
-    API_HASH = ""
+    API_ID = 26544005 # Get this value from my.telegram.org/apps
+    API_HASH = "66f6221e5ce9109827b50eaf3d105025"
 
     # Database configuration (PostgreSQL)
-    DATABASE_URL = "postgres:"
+    DATABASE_URL = "postgresql://postgres.jocwxwsjzbhzevpifnnl:KontolXD#123@aws-0-ap-southeast-1.pooler.supabase.com:6543/postgres"
 
     # Event logs chat ID and message dump chat ID
-    EVENT_LOGS = -100
-    MESSAGE_DUMP = -100
+    EVENT_LOGS = -1002554488354
+    MESSAGE_DUMP = -1002554488354
 
     # MongoDB configuration
-    MONGO_DB_URI = ""
+    MONGO_DB_URI = "mongodb+srv://wtfbruh:KontolXD#123@fsub.brzgete.mongodb.net/?retryWrites=true&w=majority&appName=fsub"
 
     # Support chat and support ID
-    SUPPORT_CHAT = ""
-    SUPPORT_ID = -100
+    SUPPORT_CHAT = "https://t.me/lokontolya"
+    SUPPORT_ID = -1002818541265
 
     # Database name
-    DB_NAME = ""
+    DB_NAME = "Jonathan"
 
     # Bot token
-    TOKEN = ""  # Get bot token from @BotFather on Telegram
+    TOKEN = "7718133895:AAFnUWI0MPBISInsWYFKXlJ_3NBah1mSUFk"  # Get bot token from @BotFather on Telegram
 
     # Owner's Telegram user ID (Must be an integer)
-    OWNER_ID = 6399386263
+    OWNER_ID = 5870285414
     # <=======================================================================================================>
 
     # <================================================ OPTIONAL ======================================================>
     # Optional configuration fields
 
     # List of groups to blacklist
-    BL_CHATS = []
+    BL_CHATS = [-1002453146086]
 
     # User IDs of sudo users, dev users, support users, tiger users, and whitelist users
     DRAGONS = get_user_list("elevated_users.json", "sudos")
