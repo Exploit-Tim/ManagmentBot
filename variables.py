@@ -19,7 +19,7 @@ class Config(object):
     API_HASH = "66f6221e5ce9109827b50eaf3d105025"
 
     # Database configuration (PostgreSQL)
-    DATABASE_URL = "postgresql://postgres.jocwxwsjzbhzevpifnnl:KontolXD#123@aws-0-ap-southeast-1.pooler.supabase.com:6543/postgres"
+    DATABASE_URL = "postgresql://postgres:KontolXD#123@db.vyxhejvpsntblvvdegga.supabase.co:5432/postgres"
 
     # Event logs chat ID and message dump chat ID
     EVENT_LOGS = -1002554488354
